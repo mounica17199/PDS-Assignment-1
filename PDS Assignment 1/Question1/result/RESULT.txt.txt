@@ -1,0 +1,22 @@
+RESULT:
+
+ Height (Inches)    Weight (Pounds)  Age  Grip Strength Frailty
+3              68.2               142   22             28       Y
+4              67.8               144   29             24       Y
+6              69.8               141   51             22       Y
+7              70.1               136   23             20       Y
+<class 'pandas.core.series.Series'>
+       Height (Inches)    Weight (Pounds)        Age  Grip Strength
+count          4.000000           4.00000   4.000000        4.00000
+mean          68.975000         140.75000  31.250000       23.50000
+std            1.144188           3.40343  13.524669        3.41565
+min           67.800000         136.00000  22.000000       20.00000
+25%           68.100000         139.75000  22.750000       21.50000
+50%           69.000000         141.50000  26.000000       23.00000
+75%           69.875000         142.50000  34.500000       25.00000
+max           70.100000         144.00000  51.000000       28.00000
+
+Frailty         
+ Length:10         
+ Class :character  
+ Mode  :character
