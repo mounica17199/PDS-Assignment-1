@@ -10,6 +10,13 @@ import seaborn as sns
 
 # Read the data
 student_data = pd.read_csv("C:/Users/91830/Downloads/StudentsPerformance.csv")
+clean_data = student_data.dropna()
+
+# Saving cleaned data
+clean_data.to_csv("C:/Users/91830/Downloads/clean_raw_data.csv", index=False)
+
+# Loading cleaned data
+clean_data = pd.read_csv("C:/Users/91830/Downloads/clean_raw_data.csv")
 
 # Task 1: Box plot of Math Score by Gender
 plt.figure(figsize=(8, 6))
